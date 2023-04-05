@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(77, 194, 240);
+}
+
+header {
+    background-image: url(Ima/accesorios/AOFB6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.navbar ul li a:hover {
+    color: #e70b25;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+
+.menu .navbar ul {
+    list-style: none;
+    }
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: darkgoldenrod;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 200px 0 150px 0;
+}
+
+.heder-txt {
+    width: 40%;
+    padding-right: 25px;
+}
+
+.heder-txt {
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: 400px;
+    color: rgb(243, 189, 119);
+    margin-bottom: 25px;
+}
+
+.heder-txt p {
+    font-size: 18px;
+    color: rgb(53, 51, 51);
+}
+
+.heder-img {
+    width: 60%;
+}
+
+.botones{
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background: linear-gradient(90eg,#e70b25 0% #900314 100%);
+    padding: 10px 35px;
+    margin-right: 20px;
+    color: rgb(43, 74, 75);
+    border-radius: 25px;
+    border: 1px solid #e70b25;
+}
+
+.btn-2 {
+    display: inline-block;
+    border: 1px solid #e70b25;
+    padding: 10px 35px;
+    margin-right: 20px;
+    color: rgb(43, 74, 75);
+    border-radius: 25px;
+}
+
+.btn-1 :hover {
+    background: linear-gradient(90eg, #cc031a 0% #900314 100%);
+}
+
+.btn-2 :hover {
+    border: 1px solid#cc031a;
+}
+
+.icon {
+    width: 200px;
+}
+
+
+
+
+
+
+
